@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kdam+Thmor+Pro&display=swap');
+@font-face {
+    font-family: "hacked";
+    src: url("../assets/Hacked-KerX.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container3{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #121214;
+    color: white;
+}
+
+.headline{
+    font-size: 50px;
+    font-family: "hacked";
+    margin: 30px;
+}
+
+.para{
+    width: 900px;
+    font-family: "kanit";
+    font-size: 15px;
+}
