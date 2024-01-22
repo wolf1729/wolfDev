@@ -9,27 +9,29 @@
     padding: 0px;
 }
 
-.container3{
+.container4{
     width: 100vw;
-    height: 400px;
     max-width: 100%;
+    background-color: #121214;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: #121214;
     color: white;
+    padding-bottom: 50px;
 }
 
-.headline{
+.skillHeadline{
     font-size: 50px;
     font-family: "hacked";
     margin: 30px;
+    margin-top: 50px;
 }
 
-.para{
-    width: 900px;
-    font-family: "kanit";
-    font-size: 15px;
+.skillComp{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background-color: transparent;
 }

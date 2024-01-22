@@ -18,6 +18,7 @@
     background-color: #121214;
     color: white;
     width: 100vw;
+    max-width: 100%;
 }
 
 .contentContainer{
