@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container8{
+    width: 100vw;
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #121214;
+}
+
+.github{
+    height: 35px;
+    width: 35px;
+}
+
+.github:hover, .linkedin:hover, .twitter:hover{
+    cursor:pointer;
+}
+
+.linkedin{
+    width: 50px;
+    height: 50px;
+    margin: 0px 50px;
+}
+
+.twitter{
+    width: 60px;
+    height: 30px;
+}
