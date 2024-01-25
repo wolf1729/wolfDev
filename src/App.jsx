@@ -1,5 +1,6 @@
 import '../src/Styles/App.css'
 import AboutMe from "./Components/AboutMe";
+import GetInTouchSection from './Components/GetInTouch';
 import ProjectSection from './Components/ProjectSection';
 import SkillsSection from './Components/SkillsSection';
 import SocialSection from './Components/SocialSection';
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <SkillsSection />
       <ProjectSection />
+      <GetInTouchSection />
       <SocialSection />
     </div>
     </>
