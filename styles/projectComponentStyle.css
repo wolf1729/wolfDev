@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.projectComponentMainContainer{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+.technology {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .projectComponentMainContainer{
+        margin: 10px;
+        width: 300px;
+    }
+}
