@@ -12,7 +12,7 @@ function TopBar() {
                     name='Prosper Otemuyiwa'
                     src="https://cdn.pixabay.com/photo/2024/04/20/03/58/ai-generated-8707732_1280.png"
                     />{' '}
-                    <Text marginLeft={2} fontSize={30} className='headerHeading' color='teal'>Wolf1729</Text>
+                    <Text marginLeft={2} fontSize={30} className='headerHeading' color='teal' fontFamily='Josefin Sans'>Wolf1729</Text>
                 </WrapItem>
             </div>
             <div className='buttonContainer'>
