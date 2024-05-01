@@ -33,4 +33,6 @@ const projectDetails = [
     },
 ]
 
-module.exports = projectDetails
+
+
+module.exports = { projectDetails }

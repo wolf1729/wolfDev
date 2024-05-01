@@ -6,8 +6,7 @@ function HomeComponent() {
 
     const whoami = () => {
         const htmlString = `class who_Am_I { Developer }`;
-        return <Code dangerouslySetInnerHTML={{ __html: htmlString }} fontSize='25px' colorScheme='red
-        ' margin={3}></Code>;
+        return <Code dangerouslySetInnerHTML={{ __html: htmlString }} fontSize='25px' colorScheme='red' margin={3}></Code>;
       }
     return (
         <>
