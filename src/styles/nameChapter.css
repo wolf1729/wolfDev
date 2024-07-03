@@ -23,7 +23,7 @@
     height: 300px;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     .nameHeading{
         font-size: 30px;
         text-align: center;
@@ -38,4 +38,78 @@
         height: 180px;
         max-width: 100%;
     }
+} */
+
+/* iPhones */
+@media only screen 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-width: 820px)
+  and (orientation: portrait),
+only screen 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-height: 820px)
+  and (orientation: landscape) {
+    /* Styles for iPhones */
+    .nameHeading{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .positionHeading {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .particleComponent {
+        height: 180px;
+        max-width: 100%;
+    }
+
+/* Android phones */
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 820px)
+  and (-webkit-min-device-pixel-ratio: 1.5),
+only screen 
+  and (min-device-height: 320px)
+  and (max-device-height: 820px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* Styles for Android phones */
+    .nameHeading{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .positionHeading {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .particleComponent {
+        height: 180px;
+        max-width: 100%;
+    }
+}
+
+/* General smartphone media query */
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 820px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* Styles for most smartphones */
+    .nameHeading{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .positionHeading {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .particleComponent {
+        height: 180px;
+        max-width: 100%;
+    }
+}
 }

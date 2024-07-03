@@ -23,3 +23,44 @@
         height: 2650px;
     }
 }
+
+/* iPhones */
+@media only screen 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-width: 820px)
+  and (orientation: portrait),
+only screen 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (max-device-height: 820px)
+  and (orientation: landscape) {
+    /* Styles for iPhones */
+    .projectComp {
+        height: 2650px;
+    }
+}
+
+/* Android phones */
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 820px)
+  and (-webkit-min-device-pixel-ratio: 1.5),
+only screen 
+  and (min-device-height: 320px)
+  and (max-device-height: 820px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* Styles for Android phones */
+    .projectComp {
+        height: 2650px;
+    }
+}
+
+/* General smartphone media query */
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 820px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* Styles for most smartphones */
+    .projectComp {
+        height: 2650px;
+    }
+}
