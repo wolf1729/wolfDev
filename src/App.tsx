@@ -3,6 +3,7 @@ import Name from "./chapters/name"
 import Project from "./chapters/projects"
 import Skills from "./chapters/skills"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Project />
     <PageFooter />
     <Analytics />
+    <SpeedInsights />
     </>
   )
 }
