@@ -36,7 +36,7 @@ const ProjectComponent: React.FC<ProjectComponentProps> = ({ name, codeLink, liv
                     </Flex>
                 </Flex>
             </CardHeader>
-            <CardBody>
+            <CardBody display='flex' flexDir='row' flexWrap='wrap' alignItems='flex-start' justifyContent='space-evenly'>
                 {showTechUsed(techStack)}
             </CardBody>
             <Image
