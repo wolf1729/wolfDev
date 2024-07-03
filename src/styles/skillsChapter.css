@@ -16,7 +16,7 @@
     height: 520px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
 
     .skillsComponent {
         height: 350px;

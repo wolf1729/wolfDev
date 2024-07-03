@@ -18,7 +18,7 @@
     height:1200px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
     .projectComp {
         height: 2650px;
     }

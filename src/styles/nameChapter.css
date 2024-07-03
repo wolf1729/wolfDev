@@ -23,7 +23,7 @@
     height: 300px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
     .nameHeading{
         font-size: 30px;
         text-align: center;
