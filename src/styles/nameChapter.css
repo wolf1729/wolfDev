@@ -18,28 +18,6 @@
     font-weight: 500;
 }
 
-.particleComponent {
-    width: 100%;
-    height: 300px;
-}
-
-/* @media (max-width: 900px) {
-    .nameHeading{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .positionHeading {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .particleComponent {
-        height: 180px;
-        max-width: 100%;
-    }
-} */
-
 /* iPhones */
 @media only screen 
   and (-webkit-min-device-pixel-ratio: 2)
@@ -58,11 +36,6 @@ only screen
     .positionHeading {
         font-size: 12px;
         text-align: center;
-    }
-
-    .particleComponent {
-        height: 180px;
-        max-width: 100%;
     }
 
 /* Android phones */
@@ -85,10 +58,6 @@ only screen
         text-align: center;
     }
 
-    .particleComponent {
-        height: 180px;
-        max-width: 100%;
-    }
 }
 
 /* General smartphone media query */
@@ -105,11 +74,6 @@ only screen
     .positionHeading {
         font-size: 12px;
         text-align: center;
-    }
-
-    .particleComponent {
-        height: 180px;
-        max-width: 100%;
     }
 }
 }
